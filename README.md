@@ -13,3 +13,15 @@ That `ProductCarousel` mocks going to a service to make an async request with re
 Those `AddToCart` nested buttons are client components that update the global store to add the product to the cart when the customer clicks on them.
 
 Adding to cart forces a re-render of `DressSelector`, which includes the server-rendered `ProductCarousel` and everything works just fine. The spice continues to flow and the CHOAM company profits have been secured.
+
+# Installation
+
+```bash
+pnpm i
+```
+
+# Running
+
+```bash
+pnpm dev
+```
