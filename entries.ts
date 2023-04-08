@@ -19,7 +19,7 @@ export const prefetcher: Prefetcher = async (path) => {
           ["App", { name: "Wakuwork" }],
           ["ProductCarousel", { color: "green" }],
         ],
-        clientModules: [(await import("./src/Carousel.js")).Carousel],
+        clientModules: [],
       };
     default:
       return {};

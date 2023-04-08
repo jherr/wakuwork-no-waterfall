@@ -1,6 +1,5 @@
 import { ServerComponent, ClientComponent } from "./ComponentWrappers.js";
 import DressSelector from "./DressSelector.js";
-import { Carousel } from "./Carousel.js";
 
 const App = ({ name = "Customer" }) => {
   return (
@@ -15,7 +14,6 @@ const App = ({ name = "Customer" }) => {
       <ServerComponent>
         <h1>Hello {name}</h1>
         <DressSelector />
-        <Carousel />
       </ServerComponent>
 
       <h5

@@ -10,6 +10,7 @@ export const ServerComponent = ({
       ...style,
       border: "2px dashed red",
       padding: "0.5rem",
+      margin: "0.5rem",
     }}
   >
     {children}
@@ -28,6 +29,7 @@ export const ClientComponent = ({
       ...style,
       border: "2px dashed green",
       padding: "0.5rem",
+      margin: "0.5rem",
     }}
   >
     {children}
